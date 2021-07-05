@@ -2,7 +2,7 @@ import json
 import base64
 
 
-def CreateParingRequestMessage(client_name) :
+def create_paring_request_message(client_name) :
     """
     This function will generate json string for ping request message
     :param client_name: get name of the client
@@ -13,7 +13,7 @@ def CreateParingRequestMessage(client_name) :
     json_dump = json.dumps(message)
     return json_dump
 
-def CreateOptionMessage() :
+def create_option_message() :
     """
     This function will generate json string for option message
     :return: json string of created message
@@ -24,7 +24,7 @@ def CreateOptionMessage() :
     json_dump = json.dumps(message)
     return json_dump
 
-def CreateConfigurationMesaage() :
+def create_configuration_mesaage() :
     """
     This function will generate json string for configuration message
     :return: json string of created message
@@ -34,7 +34,7 @@ def CreateConfigurationMesaage() :
     json_dump = json.dumps(message)
     return json_dump
 
-def CreateSecretMessage(secret_hash) :
+def create_secret_message(secret_hash) :
     """
     This function will generate json string for secret message
     :param secret_hash: get string of clients secret hash
@@ -45,7 +45,7 @@ def CreateSecretMessage(secret_hash) :
     json_dump = json.dumps(message)
     return json_dump
 
-def ParseMessage(raw_data) :
+def parse_json_message(raw_data) :
     """
     This function will parse the json message
     :param raw_data: get bytes of raw json message 

@@ -18,7 +18,7 @@ def generate_selfsigned_cert(hostname, ip_addresses=None, key=None):
             public_exponent=65537,
             key_size=2048,
             backend=default_backend(),
-        )hostname of the client
+        )
     
     name = x509.Name([
         x509.NameAttribute(NameOID.COMMON_NAME, hostname)
