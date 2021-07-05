@@ -4,6 +4,7 @@ from sending_keys import SendingKeySocket
 from key_codes import *
 import sys
 
+
 # Set your server name, server ip and client name here
 SERVER_IP = '192.168.0.144'
 SERVER_NAME = "Mi Box"
@@ -56,9 +57,10 @@ if __name__ == "__main__":
         pairing_sock.connect()
         pairing_sock.start_pairing()
         assert (pairing_sock.connected),"Connection unsuccessful!"
-    # Receive input keys
+    
     sending_key_socket = SendingKeySocket(SERVER_NAME, SERVER_IP)
     sending_key_socket.connect()
     print_guide()
+    # Receive input keys
     with keyboard.Listener(on_release=on_release) as listener:
         listener.join()

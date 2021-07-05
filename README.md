@@ -1,14 +1,14 @@
 # androidTV-controller-Python
 Simple Python program that communicate with android TV through network to pair with TV and will control it over the network.
 
-Will work on Mi box and some of android TVs.
+Works on Mi box and some of android TVs.
 
 Special thanks to [@Aymkdn](https://github.com/Aymkdn) for his detailed wiki. For protocol details check [here](https://github.com/Aymkdn/assistant-freebox-cloud/wiki/Google-TV-(aka-Android-TV)-Remote-Control).
 
 ## Tested on:
-'''
+```
 Mi Box4
-'''
+```
 
 ## Requirements: 
 * python3

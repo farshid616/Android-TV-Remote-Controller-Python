@@ -3,9 +3,8 @@ from OpenSSL.crypto import load_certificate
 from OpenSSL.crypto import FILETYPE_PEM
 from asn1crypto.x509 import Certificate
 import hashlib
-
-
 from json_handler import *
+
 
 class PairingSocket:
     '''

@@ -5,7 +5,6 @@ from OpenSSL.crypto import FILETYPE_PEM
 from asn1crypto.x509 import Certificate
 
 
-
 class SendingKeySocket:
     '''
     This class designed to send controlling commands to a android TV
