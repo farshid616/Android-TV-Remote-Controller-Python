@@ -1,10 +1,9 @@
 import socket, ssl
-# import OpenSSL
 from OpenSSL.crypto import load_certificate
 from OpenSSL.crypto import FILETYPE_PEM
 from asn1crypto.x509 import Certificate
 import hashlib
-# import binascii
+
 
 from json_handler import *
 

@@ -1,0 +1,9 @@
+asn1crypto==1.4.0
+cffi==1.14.5
+cryptography==3.4.7
+evdev==1.4.0
+pycparser==2.20
+pynput==1.7.3
+pyOpenSSL==20.0.1
+python-xlib==0.31
+six==1.16.0
